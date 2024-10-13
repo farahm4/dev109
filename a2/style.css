@@ -1,0 +1,44 @@
+body {
+    background-color: lightgray; /* Optional, adjust as needed */
+}
+
+header {
+    text-align: center;
+    background-color: #5DADE2; /* Adjust the color */
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+h1 {
+    margin: 0;
+}
+
+.chessboard{
+    width: 800px;
+    display: grid;
+    border: 2px solid black;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+.white {
+    height: 100px;
+    width: 100px;
+    background-color: black;
+  }
+
+  .black {
+    height: 100px;
+    width: 100px;
+    background-color: white;
+  }
+
+footer {
+    text-align: center;
+    background-color: #5DADE2; /* Adjust the color */
+    padding: 20px;
+}
+
+footer p {
+    margin: 10px 0;
+}
