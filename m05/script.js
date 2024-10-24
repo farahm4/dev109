@@ -15,7 +15,7 @@ while (true) {         // failsafe
     if (isNaN(table) || table < 0 || table > 10) { // under 0 or over 10
         table = prompt("Invalid input! Please enter a number between 1-10 to multiply");
     } else {
-        break;
+        break; // breaks out of loop if input is valid
     }
 }
 
