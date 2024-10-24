@@ -1,15 +1,24 @@
-var table = prompt("Please enter a number between 1-10 to multiply", 1);             // Unit of table
+var table = prompt("Please enter a number between 1-10 to multiply", 1);          // Unit of table
 var i = 1;                                                                        // Set counter to 1
 var msg = '<h2>Multiplication Table</h2>';                                        // Message
 
-if (table === null || table === "") {                                             // failsafe
-    table = 1;
-    console.log(table);
-} 
+while (true) {         // failsafe
+    table = table.trim(); // trims space
 
-while (table < 0 || table > 10) {
-    table = prompt("Invalid input! Please enter a number between 1-10 to multiply");
+    if (table === null || table === "") { // defaults to 1 if they enter blank or click cancel
+        table = 1;
+        console.log(table);
+
+        break; // break out of loop
+    }
+
+    if (isNaN(table) || table < 0 || table > 10) { // under 0 or over 10
+        table = prompt("Invalid input! Please enter a number between 1-10 to multiply");
+    } else {
+        break;
+    }
 }
+
 
 
 while (i < 11) {
