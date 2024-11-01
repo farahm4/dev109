@@ -1,0 +1,12 @@
+.box { 
+    padding: 20px 20px 20px 20px;
+    box-sizing: border-box;
+    width: 80%;
+    border: solid 2px #c7c7c7;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+
+    
+}
+    
