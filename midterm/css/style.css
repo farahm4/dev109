@@ -40,7 +40,7 @@ justify-content: center;
 
 #header h1 {
 margin: 0;
-padding: 0 0 0 30px;
+padding: 0 0;
 font-weight: bold;
 color: #3f3f3f;
 font-size: 38px;
@@ -59,10 +59,9 @@ justify-content: center;
 
 #topmenu ul { margin: 0; padding: 0; list-style-type: none;}
 #topmenu li { display: inline; padding: 0 20px 0 0 }
-#topmenu li a { text-decoration: none; 
-}
+#topmenu li a { text-decoration: none; }
 
-#content { float: left; margin: 10px 0 40px 20px;}
+#content { box-sizing: border-box; float: left; padding: 10px 20px 40px 20px; width: 100%;}
 #content h2 { font-weight: normal; font-size: 22px; line-height: 33px; }
 #content h3 { font-size: 17px; font-weight: normal; }
 

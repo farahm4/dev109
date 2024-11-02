@@ -3,6 +3,7 @@
 <head>
     <meta http-equiv="content-type" content="text/html; charset=utf-8" />
     <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link rel="stylesheet" type="text/css" href="css/contact.css" />
     <title>Portfolio | Contact</title>
 </head>
     <body>
@@ -27,8 +28,29 @@
             </ul>
         </div>
 
-        <div id="content">
-
+        <div id="content"> 
+            <div id="contentLeft">
+                <p class="contact-description">
+                    Have questions or want to connect? Fill out the form to get in touch, and I’ll get back to you as soon as possible.
+                </p>
+            </div>
+            <div id="formWrap">
+                <form action="thankyou.html" method="get" name="myContact" class="contact-form">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name">
+            
+                    <label for="email">Email:</label>
+                    <input type="text" id="email" name="email">
+            
+                    <label for="subject">Subject:</label>
+                    <input type="text" id="subject" name="subject">
+            
+                    <label for="comments">Comments:</label>
+                    <textarea id="comments" name="comments" rows="5"></textarea>
+            
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
             <div class="clear"> </div>
 
         </div>
