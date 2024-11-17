@@ -58,3 +58,8 @@ button:hover {
     color: red;
     font-weight: bold;
 }
+
+#divider {
+    border-top: 2px solid #bbb;
+    margin: 20px 0px 20px 0px;
+}
