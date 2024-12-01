@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    margin: 50px auto;
+    width: 600px;
+    position: relative;
+}
+
+#images {
+    width: 600px;
+    height: 600px;
+    object-fit: cover;
+}
+
+#imageDesc {
+    margin-top: 10px;
+    font-size: 1.2rem;
+}
+
+.buttons {
+    margin-top: 15px;
+}
+
+button {
+    background-color: white;
+    color: black;
+    border: solid black 2px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    margin: 0 5px;
+
+}
+
+footer img {
+    margin: 5px;
+    border: none;
+}
+
