@@ -1,0 +1,17 @@
+body {
+    height: 200px;
+    background: beige;
+  }
+
+.dot {
+    height: 8px; width: 8px;
+    border-radius: 100%; /* rounds corners */
+    background: blue;
+    position: absolute;
+}
+
+#wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
