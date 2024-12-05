@@ -1,0 +1,52 @@
+.box { 
+    box-sizing: border-box;
+    padding: 20px 20px 20px 20px;
+    margin: 20px 0px;
+    width: 100%;
+    border: solid 2px #c7c7c7;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    display: flex;
+    flex-flow: row;
+}
+
+.noBorderBox { 
+    box-sizing: border-box;  
+    width: 100%;
+    display: flex;
+    flex-flow: row;
+}
+
+.flexWrapper {
+    margin: 0px 0px 0px 20px;
+    padding: 0px 0px;
+    display: flex;
+    flex-flow: column;
+}
+
+.flexWrapper > p {
+    margin: 0px 0px;
+    padding: 0px 0px;
+}
+
+
+.flexWrapper > h2 {
+    padding: 0;
+    margin: 0px 0px 2px 0px;
+}
+
+.validation-box {
+    text-align: center;
+    width: 45%;
+    border: solid 2px #c7c7c7;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    margin: 0 auto;
+}
+
+.validation-box > img {
+    max-width: 90%;
+    border-radius: 5px;
+}

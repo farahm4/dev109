@@ -28,8 +28,8 @@ function createDot(event) {
     dot.style.height = currentDotSize + "px";
 
     // add dot and center it
-    dot.style.left = (event.pageX - 4) + "px";
-    dot.style.top = (event.pageY - 4) + "px";
+    dot.style.left = (event.pageX - currentDotSize/2) + "px";
+    dot.style.top = (event.pageY - currentDotSize/2) + "px";
     document.body.appendChild(dot);
 }
 
