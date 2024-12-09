@@ -1,0 +1,73 @@
+.container {
+    background: #000;
+    margin: 50px auto;
+    width: 600px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    margin: 0;
+    padding: 0;
+}
+
+#images {
+    width: 600px;
+    height: 600px;
+    object-fit: cover;
+    opacity: 1;
+    transition: opacity 0.2s ease-in-out;
+    display: block;
+}
+
+.buttons {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 40px; /* Moves buttons outside the image container */
+    box-sizing: border-box;
+    transform: translateY(-50%);
+}
+
+button {
+    background-color: rgba(255, 255, 255, 1); /* Keep buttons always visible */
+    color: black;
+    border: none;
+    padding: 15px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease;
+    opacity: 1; /* Ensure buttons are always visible */
+}
+
+button:hover {
+    transform: scale(1.1);
+}
+
+
+.dots {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.dots span {
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    margin: 0 5px;
+    background-color: #ddd;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.dots .active {
+    background-color: #333;
+}

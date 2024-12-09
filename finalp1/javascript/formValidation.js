@@ -4,7 +4,7 @@ function validateForm() {
     document.getElementById("error2").innerText = "";
 
     // setting valid booleans to false
-    var validFirstname = false;
+    var validName = false;
     var validEmail = false;
 
     // validate name
@@ -12,7 +12,7 @@ function validateForm() {
     if (name === "" || name.length > 40 || !/^[a-zA-Z]+\s[a-zA-Z]+$/.test(name)) {
         document.getElementById("error1").innerText = "Please enter your first and last name, separated by a space. Only letters are allowed.";
     } else {
-        validFirstname = true;
+        validName = true;
     }
 
     // validate email
@@ -26,5 +26,7 @@ function validateForm() {
     }
 
     // return form validity
-    return validFirstname && validEmail;
+    return validName && validEmail;
 }
+
+
